@@ -1,0 +1,223 @@
+.popupwindow {
+    min-width: 250px;
+    max-width: 350px;
+    width: auto;
+    /*padding: 30px 20px;*/
+    border: 1px solid #999;
+    position: absolute;
+
+    background-color: rgba(0,0,0,.6)!important;
+    margin-top: -10px;
+
+    display: none;
+    touch-action: none;
+    pointer-events: none;
+}
+
+.popupwindow .arrow{
+    position: absolute;
+    left: calc(50% - 5px);
+    bottom: -11px;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 11px;
+
+    margin-left: -11px;
+    border-top-color: #999;
+    border-top-color: rgba(0,0,0,0.6);
+    border-bottom-width: 0;
+
+    display: block;
+}
+
+.popupwindow .title{
+    padding: 8px 14px;
+    margin: 0;
+    font-size: 14px;
+
+    border-radius: 5px 5px 0 0;
+    background: none;
+    color: #FFF;
+    border: none;
+}
+
+.popupwindow .content{
+    color: #FFF;
+    background: none;
+    font-size: 12px;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 9px 14px;
+}
+
+.tooltips {
+    touch-action: none;
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    visibility: visible;
+    max-width: 200px;
+    min-width: 100px;
+    padding: 5px;
+    font-size: 11px;
+    z-index: 1000;
+    opacity: 0.8;
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.tooltips.left .tooltips-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #000000;
+}
+.tooltips.right .tooltips-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #000000;
+}
+.tooltips-inner {
+    padding: 3px 8px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    max-width: 200px;
+    text-decoration: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.tooltips-inner>p{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.tooltips-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cesium-infoBox-description {
+    font-family: sans-serif;
+    padding: 4px 10px;
+    margin-right: 4px;
+    color: #edffff;
+    font-size: 14px;
+}
+
+.cesium-infoBox-description a:link,
+.cesium-infoBox-description a:visited,
+.cesium-infoBox-description a:hover,
+.cesium-infoBox-description a:active {
+    color: #edffff;
+}
+
+.cesium-infoBox-description table {
+    color: #edffff;
+}
+
+.cesium-infoBox-defaultTable {
+    width: 100%;
+    color: #edffff;
+}
+
+.cesium-infoBox-defaultTable tr:nth-child(odd) {
+    background-color: rgba(77,139,172,0.6);
+}
+
+.cesium-infoBox-defaultTable tr:nth-child(even) {
+    background-color: rgba(77,139,172,0.3);
+}
+
+.cesium-infoBox-defaultTable th {
+    font-weight: normal;
+    padding: 3px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.cesium-infoBox-defaultTable td {
+    padding: 3px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.cesium-infoBox-description-lighter {
+    color: #000000;
+}
+
+.cesium-infoBox-description-lighter a:link,
+.cesium-infoBox-description-lighter a:visited,
+.cesium-infoBox-description-lighter a:hover,
+.cesium-infoBox-description-lighter a:active {
+    color: #000000;
+}
+
+.cesium-infoBox-description-lighter table {
+    color: #000000;
+}
+
+.cesium-infoBox-defaultTable-lighter {
+    width: 100%;
+    color: #000000;
+}
+
+.cesium-infoBox-defaultTable-lighter tr:nth-child(odd) {
+    background-color: rgba(179, 179, 179, 0.8);
+}
+
+.cesium-infoBox-defaultTable-lighter tr:nth-child(even) {
+    background-color: rgba(179, 179, 179, 0.25);
+}
+
+.cesium-infoBox-loadingContainer {
+    margin: 5px;
+    text-align: center;
+}
+
+.cesium-infoBox-loading {
+    display: inline-block;
+    background-image: url(../img/PopupWindow/info-loading.gif);
+    width: 16px;
+    height: 11px;
+}

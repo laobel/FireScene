@@ -1,0 +1,133 @@
+.toolbar {
+    position: absolute;
+    float: right;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: 99999;
+}
+
+.topbar {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 100%;
+}
+
+.topbar .bar-item {
+    padding-top: 5px;
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.topbar .bar-item:hover, .topbar .bar-item.active {
+    background: rgba(0, 0, 0, .2);
+    box-shadow: 4px 0 0 0 #6f68f0 inset;
+}
+
+.topbar .bar-item i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.topbar .bar-item .home {
+    background: url(../img/ToolBar/home.png) no-repeat;
+}
+
+.topbar .bar-item .drawLine {
+    background: url(../img/ToolBar/drawLine.png) no-repeat;
+}
+
+.centerbar {
+    position: absolute;
+    height: calc(100% - 340px);
+    margin-top: 210px;
+    right: 0;
+    width: 100%;
+}
+.centerbar .panal{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.centerbar .bar-item {
+    padding-top: 5px;
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.centerbar .bar-item:hover, .centerbar .bar-item.active {
+    background: rgba(0, 0, 0, .2);
+    box-shadow: 4px 0 0 0 #6f68f0 inset;
+}
+
+.centerbar .bar-item i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.centerbar .bar-item .startEdit {
+    background: url(../img/ToolBar/startEdit.png) no-repeat;
+}
+
+.centerbar .bar-item .stopEdit {
+    background: url(../img/ToolBar/stopEdit.png) no-repeat;
+}
+
+
+
+.bottombar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.bottombar .bar-item {
+    padding-top: 5px;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    text-align: center;
+}
+
+.bottombar .bar-item:hover, .bottombar .bar-item.active {
+    background: rgba(0, 0, 0, .2);
+    box-shadow: 4px 0 0 0 #6f68f0 inset;
+}
+
+.bottombar .bar-item i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.bottombar .bar-item span{
+    line-height: 1;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.bottombar .bar-item .print {
+    background: url(../img/ToolBar/print.png) no-repeat;
+}
+
+.bottombar .bar-item .guide {
+    background: url(../img/ToolBar/guide.png) no-repeat;
+}
+
